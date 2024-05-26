@@ -1,3 +1,5 @@
+from .pyfirmata import * # import all definitions
+
 class Pin(object):
     """A Pin representation"""
     def __init__(self, board, pin_number, type=ANALOG, port=None):
